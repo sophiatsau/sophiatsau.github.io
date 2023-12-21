@@ -2206,7 +2206,7 @@ body.dark .loader_line:after{
 	height: auto;
 	clear: both;
 	float: left;
-	padding-top: 70px;
+	padding-top: 20px;
 }
 .iknow_tm_services .service_list ul{
 	margin: 0px 0px 0px -25px;
@@ -4684,6 +4684,20 @@ input[type=number] {
 }
 .iknow_tm_mainpart_new_2 .main_menu ul li.current{
 	background-color: #ff451b;
+}
+
+/******************** CUSTOM ********************/
+.gallery_zoom>li:hover {
+	cursor: pointer;
+}
+
+.gallery_zoom>li>.list_inner a {
+	color: #fff;
+	position: relative;
+	text-decoration: none;
+}
+.gallery_zoom>li>.list_inner a:hover {
+	text-decoration: underline;
 }
 
 /*---------------------------------------------------*/
