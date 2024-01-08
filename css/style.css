@@ -2835,8 +2835,9 @@ input[type=number] {
 .iknow_tm_copyright.fixed{
 	position: fixed;
 	bottom: 0px;
-	padding-top: 55px;
-	z-index: 5;
+	padding-top: 5px;
+	z-index: 1;
+	/* width: fit-content; */
 }
 
 /*---------------------------------------------------*/
@@ -4764,7 +4765,7 @@ input[type=number] {
 	.iknow_tm_news .news_list ul li .details .title a{font-size: 19px;}
 	.iknow_tm_modalbox .box_inner{width: 850px;}
 	.iknow_tm_contact .wrapper .left ul li .list_inner .short h3{font-size: 19px;margin-bottom: 7px;}
-	.iknow_tm_copyright{padding-bottom: 25px;}
+	.iknow_tm_copyright{padding-bottom: 5px;}
 	.iknow_tm_fixed_content .menubar ul li{height: 40px;line-height: 40px;padding-left: 45px;}
 	.iknow_tm_fixed_content .menubar ul li .svg{width: 17px;height: 17px;}
 	.iknow_tm_fixed_content .menubar ul li span{font-size: 12px;}
