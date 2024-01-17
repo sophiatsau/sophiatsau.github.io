@@ -3363,7 +3363,7 @@ input[type=number] {
 .iknow_tm_fixed_content .iknow_tm_resume .right{width: 100%;padding-left: 0px;margin-top: 55px;}
 .iknow_tm_fixed_content .iknow_tm_resume .iknow_tm_main_title{margin-bottom: 50px;}
 .iknow_tm_fixed_content .iknow_tm_portfolio .portfolio_list ul{margin-left: -24px;}
-.iknow_tm_fixed_content .iknow_tm_portfolio .portfolio_list ul li{width: 50%;padding-left: 24px;margin-bottom: 24px;}
+.iknow_tm_fixed_content .iknow_tm_portfolio .portfolio_list ul li{width: 100%;padding-left: 24px;margin-bottom: 24px;}
 .iknow_tm_fixed_content .iknow_tm_portfolio .portfolio_filter{text-align: left;}
 .iknow_tm_fixed_content .iknow_tm_portfolio .portfolio_filter ul li{margin-right: 17px;}
 .iknow_tm_fixed_content .iknow_tm_portfolio .portfolio_filter ul li{margin-right: 17px;}
@@ -5088,4 +5088,14 @@ input[type=number] {
 	.iknow_tm_modalbox .close .svg{width: 25px;height: 25px;}
 	.iknow_tm_modalbox .close{margin-left: 0px;left: auto;right: 0px;top: -35px;}
 
+}
+
+/******** MISC ******/
+.details>p, .details>span {
+	color: white;
+	font-size: smaller;
+}
+
+.details>a {
+	font-weight: bold;
 }
